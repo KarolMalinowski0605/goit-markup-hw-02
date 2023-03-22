@@ -1,151 +1,149 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #212121;
+}
+:root {
+    --brand-color-blue-button-hover: #2196f3;
+    --brand-color-grey-text: #757575;
 }
 
 .menu {
-    width: 178px;
-    height: 31px;
-    left: 182px;
-    top: 24px;
+    font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     text-decoration: none;
     letter-spacing: 0.03em;
     color: #2196f3;
 }
-.menu:hover {
-    color: #2196f3;
+.menu:hover,
+.menu:focus {
+    color: var(--brand-color-blue-button-hover);
 }
 .studio {
     color: #000000;
 }
-.navigation {
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-    background: #ffffff;
-}
 .navigation-list {
     list-style-type: none;
-    position: absolute;
 }
 .navigation-link {
-    width: 51px;
-    height: 16px;
-    left: 656px;
-    top: 32px;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
     text-decoration: none;
 }
-.navigation-link:hover {
-    color: #2196f3;
+.navigation-link:hover,
+.navigation-link:focus {
+    color: var(--brand-color-blue-button-hover);
 }
 .mail-tel {
+    font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--brand-color-grey-text);
     text-decoration: none;
 }
 
-.mail-tel:hover {
-    color: #2196f3;
+.mail-tel:hover,
+.mail-tel:focus {
+    color: var(--brand-color-blue-button-hover);
 }
 
 .headline-text {
+    font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
-}
-.headline-button {
-    cursor: pointer;
-    font-size: 16px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
+    /*color: #FFFFFF;*/
+}
+.headline-button {
+    width: 200px;
+    height: 50px;
+    background: var(--brand-color-blue-button-hover);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
     color: #ffffff;
-    background: #2196f3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
 }
 .lorem-list {
     list-style-type: none;
 }
 .lorem {
+    font-weight: 700;
     font-size: 14px;
-    color: #212121;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
 }
 .lorem-text {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--brand-color-grey-text);
 }
 .headline-img {
+    font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
 }
 .about-us-img {
     width: 370px;
     height: 294px;
-    left: 215px;
-    top: 1061px;
 }
-.about-us-img2 {
-    position: absolute;
-    width: 370px;
-    height: 294px;
-    left: 615px;
-    top: 1061px;
-}
-.about-us-img3 {
-    position: absolute;
-    width: 370px;
-    height: 294px;
-    left: 1015px;
-    top: 1061px;
-}
+
 .john-img-title {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
 }
 .article-img {
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--brand-color-grey-text);
 }
 .adress-link {
+    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    /*color: #FFFFFF;*/
 }
 .button-list {
     list-style-type: none;
 }
+.portfolio-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+    background-color: var(--brand-color-blue-button-hover);
+    color: #ffffff;
+}
+
 .portfolio-title-img {
+    font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
 }
 .portfolio-article {
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--brand-color-grey-text);
 }
